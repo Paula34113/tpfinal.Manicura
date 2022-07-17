@@ -1,0 +1,81 @@
+@font-face {
+font-family: "cursiva";
+src: url("../letras/DancingScript-VariableFont_wght.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "sombreada";
+  src: url("../letras/BungeeShade-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "gordita";
+  src: url("../letras/RubikMoonrocks-Regular.ttf") format("truetype");
+}
+
+body{
+  background-color: #566573;
+}
+h1{
+  font-family: "gordita";
+  color: #76D7C4 ;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+
+}
+.container-lg{
+  width: 150px;
+  height: 150px;
+}
+nav{
+  font-family: "cursiva";
+  display: flex;
+  justify-content: space-around;
+}
+.carrousel{
+  background-color: #F7DC6F;
+display:contents;
+justify-content: space-between;
+    min-height: 180px; /* Prevent carousel from being distorted if for some reason image doesn't load */
+}
+ img{
+   display:flex;
+   justify-content:center;
+   width: 140%;
+   height: 140%;
+ }
+
+ .whatsapp{
+   color: green;
+   font-size: 8vmax;
+   position: fixed;
+   bottom: 20px;
+
+ }
+
+.carru{
+  display: flex;
+  justify-content: space-around;
+}
+ /*icono de facebook*/
+ .redes{
+   color:blue;
+   font-size: 60px;
+   bottom: 30vmax;
+   center:20px;
+}
+.instagram{
+  color: red;
+  font-size: 60px;
+  border-bottom-color: orange;
+}
+
+
+footer{
+  width: 100vw;/*tamaño del footer*/
+  height: 20vh;
+  display:flex;
+  justify-content:space-around;
+  align-items:baseline;
+    font-size: 40px;
+  }
