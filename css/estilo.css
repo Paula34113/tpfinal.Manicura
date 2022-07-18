@@ -23,6 +23,8 @@ h1{
   justify-content: center;
 
 }
+
+}
 .container-lg{
   width: 150px;
   height: 150px;
@@ -34,15 +36,15 @@ nav{
 }
 .carrousel{
   background-color: #F7DC6F;
-display:contents;
+display: flex;
 justify-content: space-between;
     min-height: 180px; /* Prevent carousel from being distorted if for some reason image doesn't load */
 }
  img{
    display:flex;
    justify-content:center;
-   width: 120%;
-   height: 120%;
+   height: 200px;
+   width: 225px
  }
 
 
@@ -52,23 +54,16 @@ justify-content: space-between;
   width: auto;
   display: flex;
   justify-content: space-around;
+  position: relative;
 }
  /*icono de facebook*/
- .redes{
-   color:blue;
-   font-size: 60px;
-   bottom: 30vmax;
-   center:20px;
-}
+
 .instagram{
   color: red;
   font-size: 60px;
   border-bottom-color: orange;
 }
 
-.recomendaciones{
-   
-}
 
 .iconos{
   width:auto;/*tamaño del footer*/
@@ -80,7 +75,7 @@ justify-content: space-between;
   }
   .what{
     color: green;
-    font-size: 2vmax;
+    font-size: 5vmax;
     position: fixed;
     bottom: 15px;
     display: flex;

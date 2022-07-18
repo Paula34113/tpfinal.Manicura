@@ -15,15 +15,17 @@
   </head>
   <body>
 
-    <<header>
+    <header>
     <h1 class="titulo">Manicura en Progreso</h1>
       </header>
 
       <!--Tarjetas de presentacion kappin semi y Soft  -->
 
-      <nav>
-        <div class="bs-example">
-      <div class="card" style="width: 300px;">
+      <nav >
+        <div class="container">
+            <div class="row gx<4 gx-lg-5 row-cols-2 row-cols-md-4 justify-content-flex-start">
+      <div class="card" >
+
           <img src="./imagenes/kapping.jpg" class="card-img-top" alt="...">
           <div class="card-body text-center">
               <h5 class="card-title">kapping</h5>
@@ -32,19 +34,23 @@
           </div>
       </div>
   </div>
+<br>
+<div class="container">
+  <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-4 justify-content-center ">
+<div class="card" >
 
-<div class="bs-example">
-<div class="card" style="width: 300px;">
     <img src="./imagenes/semi.jpg" class="card-img-top" alt="...">
     <div class="card-body text-center">
         <h5 class="card-title">Esmaltado Semipermanente</h5>
-        <p class="card-text">El esmaltado semipermanente es un proceso mediante el cual un gel acrílico se aplica sobre la uña. El gel lleva añadido esmalte y se consigue su endurecimiento gracias a los rayos ultravioletas. El proceso de aplicación es muy fácil pero se obtienen mejores resultados si no se lo aplica una misma.</p>
+        <p class="card-text"> El esmaltado semipermanente es un proceso mediante el cual un gel acrílico se aplica sobre la uña. El gel lleva añadido esmalte y se consigue su endurecimiento gracias a los rayos ultravioletas. El proceso de aplicación es muy fácil pero se obtienen mejores resultados si no se lo aplica una misma.</p>
 
     </div>
 </div>
 </div>
-<div class="bs-example">
-<div class="card" style="width: 300px;">
+<div class="container">
+    <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-4 justify-content-flex-end ">
+<div class="card" >
+
   <img src="./imagenes/soft.jpg" class="card-img-top" alt="...">
   <div class="card-body text-center">
       <h5 class="card-title">Soft Gel</h5>
@@ -64,19 +70,19 @@
 <br><br><br>
       </nav>
       <nav class="recomendaciones">
-        <div class=" col.sm-12 col-md-3 col-lg-2">
+        <div class=" col.sm-12 col-md-2 col-lg-2">
           <img src="./imagenes/cuidado1 (1).png" alt="">
         </div>
 
-<div class=" col.sm-12 col-md-3 col-lg-2">
+<div class=" col.sm-12 col-md-2 col-lg-2">
     <img src="./imagenes/cuidado1 (2).png" alt="">
 </div>
 
-    <div class=" col.sm-12 col-md-3 col-lg-2">
+    <div class=" col.sm-12 col-md-2 col-lg-2">
         <img src="./imagenes/cuidado1 (3).png" alt="">
     </div>
 
-    <div class=" col-sm-12 col-md-3 col-lg-2">
+    <div class=" col-sm-12 col-md-2 col-lg-2">
       <img src="./imagenes/cuidado1 (4).png" alt="">
     </div>
             </nav>
@@ -202,7 +208,7 @@
 }
 .carousel-item{
     text-align: center;
-    min-height: 180px; /* Prevent carousel from being distorted if for some reason image doesn't load */
+    min-height: 100px; /* Prevent carousel from being distorted if for some reason image doesn't load */
 }
 </style>
 </head>
@@ -247,28 +253,24 @@
 
 <br><br><br>
       <section  class="iconos">
-        <div class="what">
-          <a class="what" data-action="open" data-phone="2612590822"
-          data.message="Hola quiero un turno !" href="javascript:void(0); target="_blank">
 
-      <i class="icon-whatsapp"></i>
-       <span class= "icon-whatssap">¿Como puedo ayudarte?</span>
-
-    </a>
-        </div>
 
         <div class="instagram">
 
-        <a href=""><i class="fa fa-instagram"></i></a>
+        <a href="https://www.instagram.com/paulaluciacontreras/" target="_blank"><i class="fa fa-instagram"></i></a>
         </div>
 
         <div>
-       <a href="#" class="btn btn-primary btn-lg disabled">Contactos</a>
+       <a href="contacto.html" class="contact-button"><button class="btn">Contacto</button></a>
       </div>
 
-      <div class="redes">
-      <i class="icon-facebook-circled"></i>
-      <i class="icon-twitter"></i>
+      <div class="what">
+        <a class="what" href="https://api.whatsapp.com/send?phone=5492612590822&text=Manicura" target="_blank">
+
+    <i class="icon-whatsapp"></i>
+
+
+    </a>
       </div>
     </section>
 <script src="https://yoyaestilos.cl/wp-content/plugins/wp-whatsapp-chat/assets/frontend/js/qlwapp.min.js?ver=4.7.0" id="qlwapp-js"></script>
