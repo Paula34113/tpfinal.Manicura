@@ -25,7 +25,9 @@ h1{
 }
 
 }
-.container{
+.cardss{ display: flex;
+  flex-wrap: wrap;
+  
 
 }
 nav{
