@@ -27,9 +27,24 @@ h1{
 }
 .cardss{ display: flex;
   flex-wrap: wrap;
-  
-
+  }
+  .dire{
+    display: flex;
+    align-items: center;
+  }
+input, textarea{
+  display: flex;
+  justify-content: center;
 }
+  button{
+    font-size:10px;
+       font-weight:bold;
+       color:white;
+       background:#76D7C4;
+       border:0px;
+       width:100px;
+       height:90px;
+  }
 nav{
   font-family: "cursiva";
   display: flex;
