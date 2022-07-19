@@ -37,15 +37,20 @@ input, textarea{
   display: flex;
   justify-content: center;
 }
-  button{
+  button:hover{
     font-size:10px;
        font-weight:bold;
        color:white;
        background:#76D7C4;
        border:0px;
-       width:100px;
-       height:90px;
+       width:150px;
+       height:150px;
   }
+  /*button:hover{
+    color:#76D7C4;
+    width: 150px;
+    height: 120px;
+  }*/
 nav{
   font-family: "cursiva";
   display: flex;
@@ -55,41 +60,26 @@ nav{
   background-color: #F7DC6F;
 display: flex;
 justify-content: space-between;
-    min-height: 180px; /* Prevent carousel from being distorted if for some reason image doesn't load */
+    /*min-height: 180px; Prevent carousel from being distorted if for some reason image doesn't load */
+}
+.carrousel-item{
+  display: flex;
+  justify-content: center;
+  background-color: #F7DC6F;
 }
  img{
    display:flex;
    justify-content:center;
    height: 200px;
-   width: 225px;
- }
+   width: 240px;
 
-
-
-.carru{
-  height: 30%;
-  width: auto;
-  display: flex;
-  justify-content: space-around;
-  position: relative;
 }
- /*icono de facebook*/
 
 .instagram{
-  color: red;
+  color:orange;
   font-size: 60px;
   border-bottom-color: orange;
 }
-
-
-.iconos{
-  width:auto;/*tamaño del footer*/
-  height: 20%;
-  display:flex;
-  justify-content:space-around;
-  align-items:baseline;
-    font-size: 40px;
-  }
   .what{
     color: green;
     font-size: 5vmax;
@@ -97,5 +87,12 @@ justify-content: space-between;
     bottom: 15px;
     display: flex;
     justify-content: flex-start;
-
   }
+  footer{
+    width:auto;
+    height: 20%;
+    display:flex;
+    justify-content:space-around;
+    align-items:baseline;
+      font-size: 40px;
+    }
